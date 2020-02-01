@@ -1,0 +1,207 @@
+@media only screen and (max-width: 240px){
+    #main{
+        .landingpage{
+            text-align: center;
+            background-size: 160vw 100vh;
+            .upper{
+                h2{
+                    font-size: 5vw;
+                }
+            }
+            .lower{
+                display: inline-block;
+                margin-top: 20vw;
+                width: 30vw;
+                button{
+                    font-size: 4vw;
+                }
+            }
+        }
+        .skillpage{
+            background-size: 200vw 100vh;
+            .head{
+                h1{
+                    font-size: 8vw;
+                }
+            }
+            .body{
+                margin-top: 30vw;
+            }
+            div{
+                .subhead{
+                    h1{
+                        font-size: 4vw;
+                    }
+                }
+                .one,.two,.three,.four,.five,.six{
+                    h1{
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+        .contact{
+            height: 100vh;
+            background-size: 200vw 100vh;
+            center h1{
+                margin-bottom: 20vw;
+                font-size: 8vw;
+            }
+            .elder{
+                display: block;
+                text-align: center;
+                .left{
+                    margin-bottom: 20vw;
+                    width: 100vw;
+                    display: flex;
+                    justify-content: space-around;
+                    .stack{
+                        h1{
+                            font-size: 3vw;
+                        }
+                    }
+                }
+                .right{
+                    width: 100vw;
+                    .container{
+                        display: inline-block;
+                        font-size: 8vw;
+                        width: 60vw;
+                        .name{
+                            input{
+                                width: 50vw;
+                            }
+                        }
+                        .message{
+                            textarea{
+                                width: 50vw;
+                            }
+                        }
+                        .submit{
+                            input{
+                                font-size: 3vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .about{
+            text-align: center;
+            background-size: 200vw 100vh;
+            center h1{
+                font-size: 8vw;
+            }
+            .bigger{
+                margin-top: 20vw;
+                width: 80vw;
+                display: inline-block;
+                font-size: 4vw;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width: 480px){
+
+    #main{
+        .landingpage{
+            text-align: center;
+            background-size: 160vw 100vh;
+            .upper{
+                h2{
+                    font-size: 5vw;
+                }
+            }
+            .lower{
+                display: inline-block;
+                margin-top: 20vw;
+                width: 30vw;
+                button{
+                    font-size: 4vw;
+                }
+            }
+        }
+        .skillpage{
+            background-size: 200vw 100vh;
+            .head{
+                h1{
+                    font-size: 6vw;
+                }
+            }
+            .body{
+                margin-top: 20vw;
+            }
+            div{
+                .subhead{
+                    h1{
+                        font-size: 4vw;
+                    }
+                }
+                .one,.two,.three,.four,.five,.six{
+                    h1{
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+        .contact{
+            height: 100vh;
+            background-size: 200vw 100vh;
+            center h1{
+                font-size: 6vw;
+            }
+            .elder{
+                display: block;
+                text-align: center;
+                .left{
+                    margin-bottom: 5vw;
+                    width: 100vw;
+                    display: flex;
+                    justify-content: space-around;
+                    .stack{
+                        h1{
+                            font-size: 3vw;
+                        }
+                    }
+                }
+                .right{
+                    width: 100vw;
+                    .container{
+                        display: inline-block;
+                        font-size: 4vw;
+                        width: 60vw;
+                        .name{
+                            input{
+                                width: 50vw;
+                            }
+                        }
+                        .message{
+                            textarea{
+                                width: 50vw;
+                            }
+                        }
+                        .submit{
+                            input{
+                                font-size: 3vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .about{
+            text-align: center;
+            background-size: 150vw 100vh;
+            center h1{
+                font-size: 6vw;
+            }
+            .bigger{
+                margin-top: 15vw;
+                width: 80vw;
+                display: inline-block;
+                font-size: 3vw;
+            }
+        }
+    }
+}

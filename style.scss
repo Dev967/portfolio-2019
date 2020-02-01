@@ -65,7 +65,6 @@
         background-image: url(./Assets/secondSlideImage.jpg);
         background-size: 100vw 100vh;
         background-repeat: no-repeat;
-        filter: grayscale(100%) ;
         color: white;
         .head{
             h1{
@@ -113,6 +112,7 @@
         .elder{
             display : flex;
             .left{
+                text-align: center;
                 width: 50vw;
                 .stack{
                     width: 20vw;

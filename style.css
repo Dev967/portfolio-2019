@@ -80,8 +80,6 @@
   background-image: url(./Assets/secondSlideImage.jpg);
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
   color: white;
 }
 
@@ -146,6 +144,7 @@
 }
 
 #main .contact .elder .left {
+  text-align: center;
   width: 50vw;
 }
 
