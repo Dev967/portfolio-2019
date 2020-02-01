@@ -170,4 +170,96 @@
     font-size: 3vw;
   }
 }
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  #main .landingpage {
+    background-size: 120vw 100vh;
+  }
+  #main .landingpage .lower button {
+    font-size: 2vw;
+  }
+  #main .skillpage {
+    background-size: 120vw 100vh;
+  }
+  #main .skillpage .head h1 {
+    font-size: 5vw;
+  }
+  #main .skillpage div .subhead h1 {
+    font-size: 4vw;
+  }
+  #main .skillpage div .body {
+    margin-top: 10vw;
+  }
+  #main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
+    font-size: 3vw;
+  }
+  #main .contact {
+    background-size: 140vw 100vh;
+  }
+  #main .contact center h1 {
+    font-size: 5vw;
+  }
+  #main .contact .elder .left {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-left: 5vw;
+  }
+  #main .contact .elder .left .stack h1 {
+    font-size: 3vw;
+  }
+  #main .contact .elder .right .container {
+    width: 40vw;
+  }
+  #main .contact .elder .right .container .name input {
+    width: 95%;
+  }
+  #main .contact .elder .right .container .message textarea {
+    width: 95%;
+  }
+  #main .contact .elder .right .container .submit input {
+    font-size: 3vw;
+  }
+  #main .about {
+    background-size: 120vw 100vh;
+    text-align: center;
+  }
+  #main .about center h1 {
+    font-size: 4vw;
+  }
+  #main .about .bigger {
+    margin-top: 5vw;
+    display: block;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #main .landingpage .lower button {
+    font-size: 2vw;
+  }
+  #main .skillpage .head h1 {
+    font-size: 4vw;
+  }
+  #main .skillpage div .subhead h1 {
+    font-size: 3vw;
+  }
+  #main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
+    font-size: 2vw;
+  }
+  #main .contact center h1 {
+    font-size: 4vw;
+  }
+  #main .contact .elder .left {
+    margin-left: 10vw;
+  }
+  #main .contact .elder .right .container {
+    width: 30vw;
+  }
+  #main .contact .elder .right .container .submit input {
+    font-size: 2vw;
+  }
+}
 /*# sourceMappingURL=queries.css.map */

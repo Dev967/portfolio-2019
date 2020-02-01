@@ -44,7 +44,7 @@
 
 #main .landingpage .lower button {
   font-family: 'helsinki';
-  font-size: 1vw;
+  font-size: 2vw;
   border: 3px solid white;
   background-color: transparent;
   color: white;
@@ -145,6 +145,10 @@
 
 #main .contact .elder .left {
   text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 5vw;
   width: 50vw;
 }
 
@@ -182,7 +186,7 @@
   border: 2px solid white;
   border-radius: 10px;
   padding: 0.5vw 0 0.5vw 0;
-  width: 20vw;
+  width: 100%;
   color: white;
 }
 
@@ -196,7 +200,7 @@
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
-  width: 20vw;
+  width: 100%;
 }
 
 #main .contact .elder .right .container .submit input {
