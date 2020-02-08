@@ -3,7 +3,11 @@
     text-align: center;
     background-size: 160vw 100vh;
   }
+  #main .landingpage .upper h1 {
+    height: 4vh;
+  }
   #main .landingpage .upper h2 {
+    height: 3vh;
     font-size: 5vw;
   }
   #main .landingpage .lower {
@@ -42,6 +46,7 @@
     text-align: center;
   }
   #main .contact .elder .left {
+    margin-left: 0;
     margin-bottom: 20vw;
     width: 100vw;
     display: -webkit-box;
@@ -59,13 +64,13 @@
   #main .contact .elder .right .container {
     display: inline-block;
     font-size: 8vw;
-    width: 60vw;
+    width: 80vw;
   }
   #main .contact .elder .right .container .name input {
-    width: 50vw;
+    width: 70vw;
   }
   #main .contact .elder .right .container .message textarea {
-    width: 50vw;
+    width: 70vw;
   }
   #main .contact .elder .right .container .submit input {
     font-size: 3vw;
@@ -83,6 +88,10 @@
     display: inline-block;
     font-size: 4vw;
   }
+  #main .about .bigger .biggerone, #main .about .bigger .biggertwo {
+    width: 80vw;
+    height: 20vh;
+  }
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
@@ -90,7 +99,11 @@
     text-align: center;
     background-size: 160vw 100vh;
   }
+  #main .landingpage .upper h1 {
+    height: 8vh;
+  }
   #main .landingpage .upper h2 {
+    height: 5vh;
     font-size: 5vw;
   }
   #main .landingpage .lower {
@@ -135,6 +148,7 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-left: 0vw;
   }
   #main .contact .elder .left .stack h1 {
     font-size: 3vw;
@@ -145,13 +159,13 @@
   #main .contact .elder .right .container {
     display: inline-block;
     font-size: 4vw;
-    width: 60vw;
+    width: 70vw;
   }
   #main .contact .elder .right .container .name input {
-    width: 50vw;
+    width: 60vw;
   }
   #main .contact .elder .right .container .message textarea {
-    width: 50vw;
+    width: 60vw;
   }
   #main .contact .elder .right .container .submit input {
     font-size: 3vw;
@@ -169,11 +183,21 @@
     display: inline-block;
     font-size: 3vw;
   }
+  #main .about .bigger .biggerone, #main .about .bigger .biggertwo {
+    width: 80vw;
+    height: 20vh;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   #main .landingpage {
     background-size: 120vw 100vh;
+  }
+  #main .landingpage .upper h1 {
+    height: 8vh;
+  }
+  #main .landingpage .upper h2 {
+    height: 4vh;
   }
   #main .landingpage .lower button {
     font-size: 2vw;
@@ -234,9 +258,19 @@
     display: block;
     font-size: 3vw;
   }
+  #main .about .bigger .biggerone, #main .about .bigger .biggertwo {
+    width: 100vw;
+    height: 25vh;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  #main .landingpage .upper h1 {
+    height: 10vh;
+  }
+  #main .landingpage .upper h2 {
+    height: 4vh;
+  }
   #main .landingpage .lower button {
     font-size: 2vw;
   }
@@ -260,6 +294,13 @@
   }
   #main .contact .elder .right .container .submit input {
     font-size: 2vw;
+  }
+  #main .about .bigger {
+    margin-top: 10vw;
+  }
+  #main .about .bigger .biggerone, #main .about .bigger .biggertwo {
+    width: 80vw;
+    height: 30vh;
   }
 }
 /*# sourceMappingURL=queries.css.map */

@@ -4,7 +4,11 @@
                     text-align: center;
                     background-size: 160vw 100vh;
                     .upper{
+                        h1{
+                            height: 4vh;
+                        }
                         h2{
+                            height: 3vh;
                             font-size: 5vw;
                         }
                     }
@@ -51,6 +55,7 @@
                         display: block;
                         text-align: center;
                         .left{
+                            margin-left: 0;
                             margin-bottom: 20vw;
                             width: 100vw;
                             display: flex;
@@ -66,15 +71,15 @@
                             .container{
                                 display: inline-block;
                                 font-size: 8vw;
-                                width: 60vw;
+                                width: 80vw;
                                 .name{
                                     input{
-                                        width: 50vw;
+                                        width: 70vw;
                                     }
                                 }
                                 .message{
                                     textarea{
-                                        width: 50vw;
+                                        width: 70vw;
                                     }
                                 }
                                 .submit{
@@ -97,6 +102,10 @@
                         width: 80vw;
                         display: inline-block;
                         font-size: 4vw;
+                        .biggerone,.biggertwo{
+                            width: 80vw;
+                            height: 20vh;
+                        }
                     }
                 }
             }
@@ -109,7 +118,11 @@
                     text-align: center;
                     background-size: 160vw 100vh;
                     .upper{
+                        h1{
+                            height: 8vh;
+                        }
                         h2{
+                            height: 5vh;
                             font-size: 5vw;
                         }
                     }
@@ -159,6 +172,7 @@
                             width: 100vw;
                             display: flex;
                             justify-content: space-around;
+                            margin-left: 0vw;
                             .stack{
                                 h1{
                                     font-size: 3vw;
@@ -170,15 +184,15 @@
                             .container{
                                 display: inline-block;
                                 font-size: 4vw;
-                                width: 60vw;
+                                width: 70vw;
                                 .name{
                                     input{
-                                        width: 50vw;
+                                        width: 60vw;
                                     }
                                 }
                                 .message{
                                     textarea{
-                                        width: 50vw;
+                                        width: 60vw;
                                     }
                                 }
                                 .submit{
@@ -201,6 +215,10 @@
                         width: 80vw;
                         display: inline-block;
                         font-size: 3vw;
+                        .biggerone,.biggertwo{
+                            width: 80vw;
+                            height: 20vh;
+                        }
                     }
                 }
             }
@@ -210,6 +228,14 @@
             #main{
                 .landingpage{
                     background-size: 120vw 100vh;
+                    .upper{
+                        h1{
+                            height: 8vh;
+                        }
+                        h2{
+                            height: 4vh;
+                        }
+                    }
                     .lower{
                         button{
                             font-size: 2vw;
@@ -279,6 +305,10 @@
                         margin-top: 5vw;
                         display: block;
                         font-size: 3vw;
+                        .biggerone,.biggertwo{
+                            width: 100vw;
+                            height: 25vh;
+                        }
                     }
                 }
             }
@@ -287,6 +317,14 @@
     @media only screen and (min-width: 600px) and (max-width: 768px){
         #main{
             .landingpage{
+                .upper{
+                    h1{
+                        height: 10vh;
+                    }
+                    h2{
+                        height: 4vh;
+                    }
+                }
                 .lower{
                     button{
                         font-size: 2vw;
@@ -323,6 +361,15 @@
                                 font-size: 2vw;
                             }
                         }
+                    }
+                }
+            }
+            .about{
+                .bigger{
+                    margin-top: 10vw;
+                    .biggerone,.biggertwo{
+                        width: 80vw;
+                        height: 30vh;
                     }
                 }
             }
