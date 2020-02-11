@@ -71,8 +71,8 @@
                             .container{
                                 display: inline-block;
                                 font-size: 8vw;
-                                width: 80vw;
-                                .name{
+                                width: 60vw;
+                                .name,.mail{
                                     input{
                                         width: 70vw;
                                     }
@@ -184,8 +184,8 @@
                             .container{
                                 display: inline-block;
                                 font-size: 4vw;
-                                width: 70vw;
-                                .name{
+                                width: 60vw;
+                                .name,.mail{
                                     input{
                                         width: 60vw;
                                     }
@@ -282,7 +282,7 @@
                         .right{
                             .container{
                                 width: 40vw;
-                                .name input{
+                                .name,.mail input{
                                     width: 95%;
                                 }
                                 .message textarea{

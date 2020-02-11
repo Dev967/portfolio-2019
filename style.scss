@@ -146,11 +146,7 @@
                    border-radius: 25px;
                    padding: 1.5vw;
                    width: 21vw;
-                   transform: translateX(100vw);
-                   .name{
-                       div{
-                        margin: 1vw 0 1vw 0;   
-                       }
+                   .name,.mail{
                     input{
                         font-family: 'helsinki';
                         background-color: transparent;
@@ -162,9 +158,6 @@
                     }
                 }
                 .message{
-                    div{
-                        margin: 1vw 0 1vw 0;   
-                       }
                     textarea{
                         font-family: 'helsinki';
                         color: white;

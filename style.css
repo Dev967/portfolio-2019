@@ -191,15 +191,9 @@
   border-radius: 25px;
   padding: 1.5vw;
   width: 21vw;
-  -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
 }
 
-#main .contact .elder .right .container .name div {
-  margin: 1vw 0 1vw 0;
-}
-
-#main .contact .elder .right .container .name input {
+#main .contact .elder .right .container .name input, #main .contact .elder .right .container .mail input {
   font-family: 'helsinki';
   background-color: transparent;
   border: 2px solid white;
@@ -207,10 +201,6 @@
   padding: 0.5vw 0 0.5vw 0;
   width: 100%;
   color: white;
-}
-
-#main .contact .elder .right .container .message div {
-  margin: 1vw 0 1vw 0;
 }
 
 #main .contact .elder .right .container .message textarea {
