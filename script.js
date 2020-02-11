@@ -218,3 +218,4 @@ abouttouch.run();
 var contacttouch = new touch('.skillpage');
 contacttouch.onDown(()=>{contactAnimate()});
 contacttouch.run();
+
