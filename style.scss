@@ -2,6 +2,10 @@
     font-family: 'Helsinki';
     src: url(./Assets/Helsinki.ttf);    
 }
+@font-face{
+    font-family: 'atTheRate';
+    src : url(./Assets/Lemonada-VariableFont:wght.ttf);
+}
 #fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip{
     font-size: 15px;
 }
@@ -145,21 +149,21 @@
                    border: 2px solid white;
                    border-radius: 25px;
                    padding: 1.5vw;
-                   width: 21vw;
+                   width: 25vw;
+                   transform: translateX(100vw);
                    .name,.mail{
                     input{
-                        font-family: 'helsinki';
+                        font-family: 'atTheRate';
                         background-color: transparent;
                         border: 2px solid white;
                         border-radius: 10px;
-                        padding: 0.5vw 0 0.5vw 0;
                         width: 100%;
                         color: white;
                     }
                 }
                 .message{
                     textarea{
-                        font-family: 'helsinki';
+                        font-family: 'atTheRate';
                         color: white;
                         background-color: transparent;
                         border: 2px solid white;
