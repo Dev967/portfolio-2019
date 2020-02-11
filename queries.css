@@ -61,7 +61,7 @@
     font-size: 8vw;
     width: 60vw;
   }
-  #main .contact .elder .right .container .name input {
+  #main .contact .elder .right .container .name input, #main .contact .elder .right .container .mail input {
     width: 50vw;
   }
   #main .contact .elder .right .container .message textarea {
@@ -147,7 +147,7 @@
     font-size: 4vw;
     width: 60vw;
   }
-  #main .contact .elder .right .container .name input {
+  #main .contact .elder .right .container .name input, #main .contact .elder .right .container .mail input {
     width: 50vw;
   }
   #main .contact .elder .right .container .message textarea {
@@ -213,7 +213,7 @@
   #main .contact .elder .right .container {
     width: 40vw;
   }
-  #main .contact .elder .right .container .name input {
+  #main .contact .elder .right .container .name, #main .contact .elder .right .container .mail input {
     width: 95%;
   }
   #main .contact .elder .right .container .message textarea {
