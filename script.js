@@ -221,22 +221,8 @@ contacttouch.run();
 
 let name = document.querySelector('.namein');
 let mail = document.querySelector('.mailin');
-let msg = document.querySelector('.area');
 
-let rep1,rep2;
-valRep = ()=>{
-    let reply = window.prompt("What's your name?");
-    if(reply == ""|| reply.length < 3 || reply.length > 15) valRep();
-    else rep1 = reply;
-}
 mail.onfocus =()=>{
     if(name.value.lenght < 3) alert("Name is too short, try full name.");
     else if(name.value.length > 15) alert("Name is too long, try initials.");
-    else if(name.value== ""){
-       valRep();
-        name.value = rep1;
-    }
-}
-msg.onfocus = ()=>{
-    if(mail.value == "") alert("E-mail is mandatory!");
 }
