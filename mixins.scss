@@ -1,0 +1,23 @@
+@mixin background-preset{
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+@mixin text-shadow($color){
+    text-shadow: 0px 4px 4px $color;
+}
+
+@mixin top-heading(){
+    color: white;
+    font-size: 3vw;
+    margin: 0 0 3vw 0;
+}
+
+@mixin input-field(){
+    font-family: 'atTheRate';
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+}

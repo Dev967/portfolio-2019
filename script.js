@@ -11,6 +11,7 @@ new fullpage('#main',{
     controlArrows: false,
     slidesNavigation:true,
     anchors:['HOME','SKILLS','CONTACT','ABOUT','PROJECTS'],
+    fadingEffect: true
 });
 
 let t1 = gsap.timeline({paused: true,});

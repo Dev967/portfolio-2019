@@ -24,14 +24,14 @@
   #main .skillpage .head h1 {
     font-size: 8vw;
   }
-  #main .skillpage .body {
-    margin-top: 30vw;
-  }
   #main .skillpage div .subhead h1 {
     font-size: 4vw;
   }
   #main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
     font-size: 3vw;
+  }
+  #main .skillpage .body {
+    margin-top: 30vw;
   }
   #main .contact {
     height: 100vh;
@@ -120,14 +120,14 @@
   #main .skillpage .head h1 {
     font-size: 6vw;
   }
-  #main .skillpage .body {
-    margin-top: 20vw;
-  }
   #main .skillpage div .subhead h1 {
     font-size: 4vw;
   }
   #main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
     font-size: 3vw;
+  }
+  #main .skillpage .body {
+    margin-top: 20vw;
   }
   #main .contact {
     height: 100vh;
@@ -141,6 +141,7 @@
     text-align: center;
   }
   #main .contact .elder .left {
+    margin-left: 0;
     margin-bottom: 5vw;
     width: 100vw;
     display: -webkit-box;
@@ -148,7 +149,6 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-left: 0vw;
   }
   #main .contact .elder .left .stack h1 {
     font-size: 3vw;
@@ -192,15 +192,23 @@
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   #main .landingpage {
     background-size: 120vw 100vh;
+    text-align: center;
+    background-size: 160vw 100vh;
   }
   #main .landingpage .upper h1 {
     height: 8vh;
   }
   #main .landingpage .upper h2 {
-    height: 4vh;
+    height: 5vh;
+    font-size: 5vw;
+  }
+  #main .landingpage .lower {
+    display: inline-block;
+    margin-top: 20vw;
+    width: 30vw;
   }
   #main .landingpage .lower button {
-    font-size: 2vw;
+    font-size: 4vw;
   }
   #main .skillpage {
     background-size: 120vw 100vh;
@@ -211,11 +219,11 @@
   #main .skillpage div .subhead h1 {
     font-size: 4vw;
   }
-  #main .skillpage div .body {
-    margin-top: 10vw;
-  }
   #main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
     font-size: 3vw;
+  }
+  #main .skillpage .body {
+    margin-top: 10vw;
   }
   #main .contact {
     background-size: 140vw 100vh;
@@ -272,10 +280,11 @@
     height: 4vh;
   }
   #main .landingpage .lower button {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   #main .skillpage .head h1 {
     font-size: 4vw;
+    margin-bottom: 10vw;
   }
   #main .skillpage div .subhead h1 {
     font-size: 3vw;

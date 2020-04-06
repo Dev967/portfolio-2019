@@ -1,0 +1,120 @@
+@mixin landing-page($heightH1, $heightH2, $font-sizeH2){
+    text-align: center;
+    background-size: 160vw 100vh;
+    .upper{
+        h1{
+            height: $heightH1;
+        }
+        h2{
+            height: $heightH2;
+            font-size: $font-sizeH2;
+        }
+    }
+    .lower{
+        display: inline-block;
+        margin-top: 20vw;
+        width: 30vw;
+        button{
+            font-size: 4vw;
+        }
+    }
+}
+
+@mixin landing-page2($heightH1, $heightH2){
+    .upper{
+        h1{
+            height: $heightH1;
+        }
+        h2{
+            height: $heightH2;
+        }
+    }
+    .lower{
+        button{
+            font-size: 3vw;
+        }
+    }
+}
+
+@mixin skill-page($one, $two, $three){
+    .head{
+        h1{
+            font-size: $one;
+        }
+    }
+    div{
+        .subhead{
+            h1{
+                font-size: $two;
+            }
+        }
+        .one,.two,.three,.four,.five,.six{
+            h1{
+                font-size: $three;
+            }
+        }
+    }
+}
+
+@mixin skill-page2($one, $two, $three){
+    .head{
+        h1{
+            font-size: $one;
+            margin-bottom: 10vw;
+        }
+    }
+    div{
+        .subhead{
+            h1{
+                font-size: $two;
+            }
+        }
+        .one,.two,.three,.four,.five,.six{
+            h1{
+                font-size: $three;
+            }
+        }
+    }
+}
+
+@mixin contact-page($mb,$s1,$w1){
+    .elder{
+        display: block;
+        text-align: center;
+        .left{
+            margin-left: 0;
+            margin-bottom: $mb;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            .stack{
+                h1{
+                    font-size: 3vw;
+                }
+            }
+        }
+        .right{
+            width: 100vw;
+            .container{
+                display: inline-block;
+                font-size: $s1;
+                width: 60vw;
+                .name,.mail{
+                    input{
+                        width: $w1;
+                    }
+                }
+                .message{
+                    textarea{
+                        width: $w1;
+                    }
+                }
+                .submit{
+                    input{
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
+    }
+}
