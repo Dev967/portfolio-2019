@@ -38,23 +38,7 @@
             margin: 5vw;
             color: white;
             button{
-                opacity: 0;
-                font-family: 'helsinki';
-                font-size: 2vw;
-                border: 3px solid white;
-                background-color: transparent;
-                color: white;
-                border-radius: 5px;
-                padding: 0 2vw 0 2vw;
-                margin: 1vw;
-                @include text-shadow(black);
-                cursor : pointer;
-                transition:all 0.3s ease-out;
-                    &:hover{
-                        background-color: white;
-                        color: black;
-                        @include text-shadow(white);
-                    }
+             @include button(0);
             }
         }
     }
@@ -193,5 +177,51 @@
             height: 60vh;
         }
       }
+    }
+    .projects{
+            background-image: url(./Assets/AboutImage.jpg);
+            @include background-preset();
+            .projectData{
+                .slide{
+                    center h1{
+                        @include top-heading();
+                    }
+                    .data{
+                        display:flex;
+                        justify-content: space-around;
+                        padding: 0 2vw 0 2vw;
+                        .left{
+                            h2{
+                                color: white;
+                            }
+                            p{
+                                color: white;
+                            }
+                            width: 50vw;
+                        }
+                        .right{
+                            width: 50vw;
+                            .right_upper{
+                                display: flex;
+                                justify-content: space-around;
+                                img{
+                                    border-radius: 5%;
+                                    @include text-shadow(black);
+                                    border: 2px solid white;
+                                    width: 40vw;
+                                    height: 50vh;
+                                }
+                            }
+                            .right_lower{
+                                display: flex;
+                                justify-content: space-around;
+                                button{
+                                    @include button(100);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
     }
 }

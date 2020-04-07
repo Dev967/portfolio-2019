@@ -92,6 +92,51 @@
     width: 80vw;
     height: 20vh;
   }
+  #main .projects {
+    background-image: url(./Assets/AboutImage.jpg);
+    background-size: 200vw 100vh;
+  }
+  #main .projects .projectData .slide center h1 {
+    font-size: 8vw;
+  }
+  #main .projects .projectData .slide .data {
+    display: block;
+  }
+  #main .projects .projectData .slide .data .left {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .left h2 {
+    font-size: 6vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .left p {
+    padding: 0 5px 0 5px;
+    font-size: 4vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .right {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .right .right_upper {
+    padding: 0 10px 0 10px;
+  }
+  #main .projects .projectData .slide .data .right .right_upper img {
+    border-radius: 5%;
+    text-shadow: 0px 4px 4px black;
+    border: 2px solid white;
+    width: 90vw;
+    height: 50vh;
+  }
+  #main .projects .projectData .slide .data .right .right_lower {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #main .projects .projectData .slide .data .right .right_lower button {
+    font-size: 6vw;
+  }
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
@@ -187,6 +232,47 @@
     width: 80vw;
     height: 20vh;
   }
+  #main .projects {
+    background-image: url(./Assets/AboutImage.jpg);
+    background-size: 200vw 100vh;
+  }
+  #main .projects .projectData .slide center h1 {
+    font-size: 8vw;
+  }
+  #main .projects .projectData .slide .data {
+    display: block;
+  }
+  #main .projects .projectData .slide .data .left {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .left h2 {
+    font-size: 6vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .left p {
+    padding: 0 5px 0 5px;
+    font-size: 4vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .right {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .right .right_upper {
+    padding: 0 10px 0 10px;
+  }
+  #main .projects .projectData .slide .data .right .right_upper img {
+    border-radius: 5%;
+    text-shadow: 0px 4px 4px black;
+    border: 2px solid white;
+    width: 90vw;
+    height: 40vh;
+  }
+  #main .projects .projectData .slide .data .right .right_lower {
+    padding-left: 30vw;
+  }
+  #main .projects .projectData .slide .data .right .right_lower button {
+    font-size: 4vw;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
@@ -270,6 +356,47 @@
     width: 100vw;
     height: 25vh;
   }
+  #main .projects {
+    background-image: url(./Assets/AboutImage.jpg);
+    background-size: 200vw 100vh;
+  }
+  #main .projects .projectData .slide center h1 {
+    font-size: 6vw;
+  }
+  #main .projects .projectData .slide .data {
+    display: block;
+  }
+  #main .projects .projectData .slide .data .left {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .left h2 {
+    font-size: 4vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .left p {
+    padding: 0 5px 0 5px;
+    font-size: 4vw;
+    color: white;
+  }
+  #main .projects .projectData .slide .data .right {
+    width: 100vw;
+  }
+  #main .projects .projectData .slide .data .right .right_upper {
+    padding: 0 10px 0 10px;
+  }
+  #main .projects .projectData .slide .data .right .right_upper img {
+    border-radius: 5%;
+    text-shadow: 0px 4px 4px black;
+    border: 2px solid white;
+    width: 80vw;
+    height: 40vh;
+  }
+  #main .projects .projectData .slide .data .right .right_lower {
+    padding-left: 30vw;
+  }
+  #main .projects .projectData .slide .data .right .right_lower button {
+    font-size: 3vw;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -310,6 +437,16 @@
   #main .about .bigger .biggerone, #main .about .bigger .biggertwo {
     width: 80vw;
     height: 30vh;
+  }
+  #main .projects .projectData .slide .data .right .right_upper img {
+    width: 50vw;
+  }
+  #main .projects .projectData .slide .data .right .right_lower {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=queries.css.map */

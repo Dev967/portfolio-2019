@@ -21,3 +21,23 @@
     border-radius: 10px;
     width: 100%;
 }
+
+@mixin button($opacity){
+    opacity: $opacity;
+    font-family: 'helsinki';
+    font-size: 2vw;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 0 2vw 0 2vw;
+    margin: 1vw;
+    @include text-shadow(black);
+    cursor : pointer;
+    transition:all 0.3s ease-out;
+        &:hover{
+            background-color: white;
+            color: black;
+            @include text-shadow(white);
+        }
+}

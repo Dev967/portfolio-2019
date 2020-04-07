@@ -258,4 +258,87 @@
   width: 100vw;
   height: 60vh;
 }
+
+#main .projects {
+  background-image: url(./Assets/AboutImage.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+#main .projects .projectData .slide center h1 {
+  color: white;
+  font-size: 3vw;
+  margin: 0 0 3vw 0;
+}
+
+#main .projects .projectData .slide .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 2vw 0 2vw;
+}
+
+#main .projects .projectData .slide .data .left {
+  width: 50vw;
+}
+
+#main .projects .projectData .slide .data .left h2 {
+  color: white;
+}
+
+#main .projects .projectData .slide .data .left p {
+  color: white;
+}
+
+#main .projects .projectData .slide .data .right {
+  width: 50vw;
+}
+
+#main .projects .projectData .slide .data .right .right_upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main .projects .projectData .slide .data .right .right_upper img {
+  border-radius: 5%;
+  text-shadow: 0px 4px 4px black;
+  border: 2px solid white;
+  width: 40vw;
+  height: 50vh;
+}
+
+#main .projects .projectData .slide .data .right .right_lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main .projects .projectData .slide .data .right .right_lower button {
+  opacity: 100;
+  font-family: 'helsinki';
+  font-size: 2vw;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 0 2vw 0 2vw;
+  margin: 1vw;
+  text-shadow: 0px 4px 4px black;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#main .projects .projectData .slide .data .right .right_lower button:hover {
+  background-color: white;
+  color: black;
+  text-shadow: 0px 4px 4px white;
+}
 /*# sourceMappingURL=style.css.map */

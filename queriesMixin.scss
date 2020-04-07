@@ -118,3 +118,52 @@
         }
     }
 }
+
+@mixin project-block($h1F, $h2F, $imgH, $imgW, $btnS, $left: null){
+    .projectData{
+        .slide{
+            center h1{
+                font-size: $h1F;
+            }
+            .data{
+                display:block;
+                .left{
+                    h2{
+                        font-size: $h2F;
+                        color: white;
+                    }
+                    p{
+                        padding: 0 5px 0 5px;
+                        font-size: 4vw;
+                        color: white;
+                    }
+                    width: 100vw;
+                }
+                .right{
+                    width: 100vw;
+                    .right_upper{
+                        padding: 0 10px 0 10px;
+                        img{
+                            border-radius: 5%;
+                            @include text-shadow(black);
+                            border: 2px solid white;
+                            width: $imgW;
+                            height: $imgH;
+                        }
+                    }
+                    .right_lower{
+                        @if $left == null{
+                            display: flex;
+                            justify-content: space-around;
+                        } @else if $left == true{
+                            padding-left: 30vw;
+                        }
+                        button{
+                            font-size: $btnS; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
