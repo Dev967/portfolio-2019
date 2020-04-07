@@ -247,6 +247,7 @@
 }
 
 #main .about .bigger {
+  padding: 0 2vw 0 2vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

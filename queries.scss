@@ -4,7 +4,7 @@
       @media only screen and (max-width: 240px){
             #main{
                 .landingpage{
-                    @include landing-page(4vh,3vh,5vw);
+                    @include landing-page(4vh,3vh,5vw,4vw);
                 }
                 .skillpage{
                     background-size: 200vw 100vh;
@@ -23,21 +23,7 @@
                     @include contact-page(20vw,8vw,70vw);
                 }
                 .about{
-                    text-align: center;
-                    background-size: 200vw 100vh;
-                    center h1{
-                        font-size: 8vw;
-                    }
-                    .bigger{
-                        margin-top: 20vw;
-                        width: 80vw;
-                        display: inline-block;
-                        font-size: 4vw;
-                        .biggerone,.biggertwo{
-                            width: 80vw;
-                            height: 20vh;
-                        }
-                    }
+                    @include about(200vw, 100vh, 8vw, 20vw, 80vw, inline-block, 4vw, 80vw, 20vh, true);
                 }
                 .projects{
                     background-image: url(./Assets/AboutImage.jpg);
@@ -52,7 +38,7 @@
 
             #main{
                 .landingpage{
-                    @include landing-page(8vh,5vh,5vw);
+                    @include landing-page(8vh,5vh,5vw,4vw);
                 }
                 .skillpage{
                     background-size: 200vw 100vh;
@@ -70,21 +56,7 @@
                     @include contact-page(5vw,4vw,60vw);
                 }
                 .about{
-                    text-align: center;
-                    background-size: 150vw 100vh;
-                    center h1{
-                        font-size: 6vw;
-                    }
-                    .bigger{
-                        margin-top: 15vw;
-                        width: 80vw;
-                        display: inline-block;
-                        font-size: 3vw;
-                        .biggerone,.biggertwo{
-                            width: 80vw;
-                            height: 20vh;
-                        }
-                    }
+                    @include about(150vw, 100vh, 6vw, 15vw, 80vw, inline-block, 3vw, 80vw, 20vh, true);
                 }
                 .projects{
                     background-image: url(./Assets/AboutImage.jpg);
@@ -99,7 +71,7 @@
             #main{
                 .landingpage{
                     background-size: 120vw 100vh;
-                    @include landing-page(8vh,5vh,5vw);
+                    @include landing-page(8vh,5vh,5vw,4vw);
                 }
                 .skillpage{
                     background-size: 120vw 100vh;
@@ -139,20 +111,7 @@
                     }
                 }
                 .about{
-                    background-size: 120vw 100vh;
-                    text-align: center;
-                    center h1{
-                        font-size: 4vw;
-                    }
-                    .bigger{
-                        margin-top: 5vw;
-                        display: block;
-                        font-size: 3vw;
-                        .biggerone,.biggertwo{
-                            width: 100vw;
-                            height: 25vh;
-                        }
-                    }
+                    @include about(120vw, 100vh, 4vw, 5vw, 100vw, block, 3vw, 100vw, 25vh);
                 }
                 .projects{
                     background-image: url(./Assets/AboutImage.jpg);
@@ -165,10 +124,10 @@
     @media only screen and (min-width: 600px) and (max-width: 768px){
         #main{
             .landingpage{
-                @include landing-page2(10vh,4vh);
+                @include landing-page(10vh,4vh,3vw,3vw,true);
             }
             .skillpage{
-                @include skill-page2(4vw, 3vw, 2vw);
+                @include skill-page(4vw, 3vw, 2vw, true);
             }
             .contact{
                 center h1{

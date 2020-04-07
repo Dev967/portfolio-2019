@@ -341,8 +341,8 @@
     font-size: 3vw;
   }
   #main .about {
-    background-size: 120vw 100vh;
     text-align: center;
+    background-size: 120vw 100vh;
   }
   #main .about center h1 {
     font-size: 4vw;
@@ -410,7 +410,6 @@
     font-size: 3vw;
   }
   #main .skillpage .head h1 {
-    font-size: 4vw;
     margin-bottom: 10vw;
   }
   #main .skillpage div .subhead h1 {
