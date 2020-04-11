@@ -252,3 +252,7 @@ document.addEventListener('DOMContentLoaded',(e)=>{
     }
 
 });
+
+let performContact = () => {
+    alert("Contact Number: "+ 9685275197 )
+}
