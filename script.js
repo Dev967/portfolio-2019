@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded',(e)=>{
         var txt3 = "I am a Developer";
     
         let m =n = o=p =0;
-        var aboutText1 = "Heya There...Nice to meet you,I am Anand And I'm a developer based in Indore M.P.";
-        var aboutText2 = "I am a Developer but mainly i most intrested and focused in Web Developing.I Develop Web sites using HTML,CSS and JS.I've more than 4 months of experience with javascript and i am Familiar with ES6 syntax.I do know PHP and SQL and i use them in my sites.";
-        var aboutText3 = "For Web applications i go with ReactJs and ReactRouter";
+        var aboutText1 = "Heya There...Nice to meet you,I am Anand And I'm a developer based in Indore";
+        var aboutText2 = "I am a complete MERN stack developer, looking forward to become a full-stack developer. I am highly intrested in Web technologies that's why ";
+        var aboutText3 = "I am well aware of new trends and technologies in this field.";
         var aboutText4 = "I am a computer Science Student.I have been purusing Bachelor of Techonoloy under the scool of computer science and Information Techonoloy from Sybmiosis University Of Applied Sciences,Indore, Since 2019";
      
         
