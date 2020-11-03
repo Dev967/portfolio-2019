@@ -109,17 +109,40 @@
   text-shadow: 0px 4px 4px black;
 }
 
-#main .skillpage div .one, #main .skillpage div .two, #main .skillpage div .three, #main .skillpage div .four, #main .skillpage div .five, #main .skillpage div .six {
+#main .skillpage div .one, #main .skillpage div .two, #main .skillpage div .three, #main .skillpage div .four {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1, #main .skillpage div .five h1, #main .skillpage div .six h1 {
+#main .skillpage div .one h1, #main .skillpage div .two h1, #main .skillpage div .three h1, #main .skillpage div .four h1 {
   margin: 1vw 0 1vw 0;
   font-size: 2vw;
   width: 21vw;
   text-shadow: 0px 4px 4px black;
+}
+
+#main .skillpage div .one button, #main .skillpage div .two button, #main .skillpage div .three button, #main .skillpage div .four button {
+  opacity: 100;
+  font-family: 'helsinki';
+  font-size: 2vw;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 0 2vw 0 2vw;
+  margin: 1vw;
+  text-shadow: 0px 4px 4px black;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+#main .skillpage div .one button:hover, #main .skillpage div .two button:hover, #main .skillpage div .three button:hover, #main .skillpage div .four button:hover {
+  background-color: white;
+  color: black;
+  text-shadow: 0px 4px 4px white;
 }
 
 #main .skillpage div .one, #main .skillpage div .three, #main .skillpage div .five {
@@ -173,12 +196,12 @@
 }
 
 #main .contact .elder .left .stack h1 {
+  cursor: pointer;
   margin: 1vw;
   font-size: 2vw;
 }
 
 #main .contact .elder .left .stack:hover {
-  width: 25vw;
   background-color: white;
   border: 2px solid black;
 }
@@ -335,6 +358,7 @@
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 
 #main .projects .projectData .slide .data .right .right_lower button:hover {
